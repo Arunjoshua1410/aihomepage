@@ -1,0 +1,168 @@
+*{
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.Pricing-header{
+    margin-top: 100px;
+}
+.Pricinghead{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    tab-size: 4;
+    text-align: center;
+    color:rgb(107, 33, 168);
+}
+.Pricing-headpara{
+    text-align: center;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(75, 85, 99);
+    max-width:672px;
+    display: flex;
+    margin-left: 450px;
+}
+
+/* cards */
+.Pricing-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.pricing-card{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 30px;
+    border-radius:12px;
+    width: 300px;
+    box-shadow:0 2px 8px rgba(0, 0,0, 0.1) ;
+}
+.pricing-card.most-popular{
+    border: 2px solid purple;
+    box-shadow: 0 4px 12px rgba(128, 0, 128, 0.2);
+}
+.price{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.description{
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+.card-button{
+    background-color: #eee;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.card-button.highlighted {
+    background-color: #5b2d91;
+    color: white;
+  }
+
+
+  /* compare */
+.compareplans{
+    border: 1px solid #ccc;
+    width: 1150px;
+   
+    margin-top: 30px;
+    margin-left: 190px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.compare-header{
+    text-align: center;
+}
+.compare-sub{
+    text-align: center;
+    margin-top: 0px;
+    line-height: 0px;
+    color: rgb(75, 85, 99);
+}
+.feature-head2
+{
+     display: flex;
+     justify-content:space-around;
+    border-bottom: 1px solid #ccc;
+}
+.feature-head2 p{
+    font-weight: 500;
+}
+.feature-head3{
+   display: flex;
+   justify-content:space-around;
+   border-bottom: 1px solid #ccc;
+}
+
+.frequently{
+    text-align: center;
+    font-size: 24px;
+}
+.frequently-sub{
+    display: flex;
+    margin-left: 200px;
+}
+.frequent-para{
+    width: 600px;
+    font-size: 16px;
+    color: rgb(142, 145, 150);
+}
+
+/* CTA Section */
+.pricing-cta {
+    background-color: #f8f5ff;
+    border: 1px solid #eee6ff;
+    padding: 40px;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 12px;
+    max-width: 1000px;
+    margin: 60px auto;
+  }
+  
+  .pricing-cta h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-cta p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .try-btn {
+    background: linear-gradient(90deg, #6c5ce7, #5f27cd);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(93, 56, 232, 0.3);
+  }
+  
+  .contact-btn {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+  }
+  

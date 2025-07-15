@@ -1,5 +1,8 @@
 import './styles/Header.css';
 import images from './assets/securionlogo.png';
+import { Link } from 'react-router-dom';
+
+
 function Header(){
   return <>
     <div className='header'>
@@ -7,8 +10,8 @@ function Header(){
                 <img src={images} alt="" className='headerlogo'/>
         </div>
         <div className='links'>
-            <a href="">Agents</a>
-            <a href="">Pricing</a>
+            <a href="/">Agents</a>
+            <Link to="/pricing">Pricing</Link>
             <a href="">Docs</a>
             <a href="">Resources&#8595;</a>
         </div>
