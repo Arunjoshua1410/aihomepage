@@ -1,0 +1,14 @@
+*{
+    font-family: sans-serif;
+}
+
+/* Light Theme default */
+body{
+    background-color: white;
+    color: black;
+}
+/* Dark theme */
+body.dark-theme{
+    background-color: #121212;
+    color: white;
+}

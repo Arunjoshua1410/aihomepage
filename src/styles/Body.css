@@ -1,0 +1,136 @@
+.body{
+    margin-top: 100px;
+}
+.bodyHeader{
+    font-size: 60px;
+    color: rgb(37, 99, 235);
+    font-weight:700;
+    margin-top:150px;
+    display: flex;
+    justify-content: center;
+}
+.bodyPara{
+    display: flex;
+    justify-content: center;
+    color: rgb(75, 85, 99);
+    font-size:18px;
+
+}
+.bodyheader2{
+    display: flex;
+    justify-content: center;
+}
+.agents46{
+    color:rgb(142, 145, 150) ;
+    display: flex;
+    justify-content: center;
+}
+/* cards */
+.card{
+    width: 300px;
+    border: 1px solid #eee;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    background: white;
+    font-family: sans-serif;
+    margin: 20px auto;
+}
+.cardImage{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #f0f0f0;
+}
+.cardContent{
+    padding: 16px;
+}
+.cardTags{
+    display: flex;
+    justify-content: space-between;
+}
+.tag{
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.tag.cyber{
+    background-color: #f3e8ff;
+    color: #6b21a8;
+}
+.tag.paid{
+    background-color:#fee2e2 ;
+    color: #92400e;
+}
+.cardTitle{
+    font-size: 18px;
+    font-weight: bold;
+   margin: 8px 0;
+}
+.cardDesc{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.cardFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.cardKeywords{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.cardKeywords span{
+    background-color: #f1f5f9;
+    padding: 6px 10px;
+    font-size: 12px;
+    border-radius: 12px;
+}
+.cards{
+    display: flex;
+}
+
+@media (max-width:1024px){
+    .cards{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .bodyHeader{
+        font-size: 44px;
+        padding-top: 10px;
+    }
+    .bodyPara{
+        text-align: center;
+        padding: 0 20px;
+        font-size: 16px;
+    }
+    .card{
+        margin: 20px;
+    }
+}
+/* And See our mobile view */
+@media (max-width:768px){
+    .bodyHeader{
+        font-size: 36px;
+       
+        margin-left: 100px;
+    }
+    .bodyPara{
+        font-size: 15px;
+        padding: 0 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 100px;
+    }
+}

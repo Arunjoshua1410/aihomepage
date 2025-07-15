@@ -1,0 +1,88 @@
+.headerlogo{
+    height: 36px;
+    cursor: pointer;
+}
+.header {
+    position: fixed;      
+    top: 0;
+    left: 0;
+    background-color: white;
+    right: 0;
+}
+
+.links a{
+    text-decoration: none;
+    color: rgb(55, 65, 81);
+    height: 24px;
+    margin-right: 15px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(229, 231, 235);
+    height: 80px;
+   
+}
+.headerbtn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sign-in{
+    background-color: rgb(238, 245, 248);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.GetStarted{
+    background-color: rgb(37, 99, 235);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-image:linear-gradient(to right, rgb(107, 33, 168), rgb(37, 99, 235));
+    color: white;
+    cursor: pointer;
+}
+
+/* Responsive page css for tablets */
+@media (max-width:1024px){
+    .header{
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+    .links a{
+        margin-right: 10px;
+        font-size: 14px;
+    }
+    .sign-in,.GetStarted{
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+/* Responsice for mobile */
+@media (max-width:768px){
+    .header{
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 10px;
+    }
+    .links{
+        flex-direction: column;
+        gap: 10px;
+        margin: 10px 0;
+    }
+    .headerbtn{
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+    .sign-in, .GetStarted{
+        width: 100%;
+        padding: 2px;
+    }
+}
